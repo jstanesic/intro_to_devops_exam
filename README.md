@@ -24,7 +24,9 @@ You should have received username and password on your emails.
 To download the oc tool log in to the OpenShift cluster. Click on the ? question mark in the top right corner. Select Command line tools.
 ![image](https://github.com/jstanesic/intro_to_devops_exam/assets/91891125/cbffcf42-e0d1-438c-95be-5f88fa4df0bf)
 
+
 Select Download oc tool for Linux for x86_64
+
 ![image](https://github.com/jstanesic/intro_to_devops_exam/assets/91891125/6bec537e-f2df-46ed-8013-4dca35b48270)
 
 File called oc.tar will be downloaded under /home/student/ directory.
