@@ -3,7 +3,7 @@
 ## Configuring your VM to access internal OpenShit
 As user root execute the following command to add another line to your /etc/hosts file
 ```
-echo "10.10.68.154 console-openshift-console.apps-crc.testing api.crc.testing api.crc.testing canary-openshift-ingress-canary.apps-crc.testing console-openshift-console.apps-crc.testing default-route-openshift-image-registry.apps-crc.testing downloads-openshift-console.apps-crc.testing oauth-openshift.apps-crc.testing" >> /etc/hosts
+echo "10.10.68.130 console-openshift-console.apps-crc.testing api.crc.testing api.crc.testing canary-openshift-ingress-canary.apps-crc.testing console-openshift-console.apps-crc.testing default-route-openshift-image-registry.apps-crc.testing downloads-openshift-console.apps-crc.testing oauth-openshift.apps-crc.testing" >> /etc/hosts
 ```
 Your /etc/hosts should look like this
 ![image](https://github.com/jstanesic/intro_to_devops_exam/assets/91891125/7d4a4845-5951-4c3f-b15e-abde6ed2a3f6)
