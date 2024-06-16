@@ -19,7 +19,7 @@ Use the project with the same name as you infoeduka username.
 ![image](https://github.com/jstanesic/intro_to_devops_exam/assets/91891125/2aa2a067-1344-4fe8-b021-29754a78f85f)
 
 
-oc tool is available to download trough the cluster, by navigating to help menu, Command Line Tools and then selecting correct binary
+oc tool is available to download trough the cluster, by navigating to help menu, Command Line Tools and then selecting correct binary.
 ![image](https://github.com/jstanesic/intro_to_devops_exam/assets/91891125/abae3036-ef6d-46c4-97bc-0ab13550c02f)
 
 
@@ -30,7 +30,7 @@ oc login -u <username> --server=https://api.vuacloud.vua.cloud:6443/
 You will be prompted for a password.
 
 ## Learning Outcome 5 task 3 Note
-It is okay if the pod does not start due to some erros but the deployment should create succesffully.
+It is okay if the pod does not start due to some erros but the deployment should create successfully.
 
 ## Disk space issues
 
