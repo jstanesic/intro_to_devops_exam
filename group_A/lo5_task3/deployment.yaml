@@ -1,0 +1,25 @@
+apiVersion: apps/v1 
+kind: Deployment 
+metadata: 
+  name: myapp 
+spec: 
+  replicas: 1
+  selector: 
+    matchLabels: 
+      app: http
+  template: 
+    metadata: 
+      labels: 
+        app: myapp 
+    spec: 
+      containers: 
+      - name: mycontainer 
+        image: httpd
+        env: 
+        - name: ENV_VAR 
+          valueFrom: 
+            configMapKeyRef: 
+            name: myconfig 
+            key: env_var 
+        ports: 
+        - containerPort: 80 
