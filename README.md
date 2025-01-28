@@ -5,8 +5,6 @@ As user root execute the following command to add another line to your /etc/host
 ```
 echo "10.10.68.126 console-openshift-console.apps-crc.testing api.crc.testing api.crc.testing canary-openshift-ingress-canary.apps-crc.testing console-openshift-console.apps-crc.testing default-route-openshift-image-registry.apps-crc.testing downloads-openshift-console.apps-crc.testing oauth-openshift.apps-crc.testing registry.apps.vuacloud.vua.cloud" >> /etc/hosts
 ```
-Your /etc/hosts should look like this
-![image](![image](https://github.com/jstanesic/intro_to_devops_exam/assets/91891125/bb582af1-bb79-407c-a2b8-191e6bee0497))
 
 To switch to user root execute the following command, password is centos:
 ```
